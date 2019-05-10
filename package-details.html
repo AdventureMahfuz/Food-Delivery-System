@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Delivery System - package details</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/simple_Cart.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body class="single-page">
+<!--mobile view start-->
+<div class="mobile_view">
+    <div class="mobile-menu-area">
+        <ul class="mobile-menu">
+            <li><i class="fa fa-times" id="close"></i></li>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="#">menu list</a></li>
+            <li><a class="nav-link" href="#">gallery</a></li>
+            <li><a class="nav-link" href="#">events</a></li>
+            <li><a class="nav-link" href="#">customer review</a></li>
+            <li><a class="nav-link" href="#">reservation</a></li>
+            <li><a class="nav-link" href="#">about us</a></li>
+            <li><a class="nav-link" href="#">contact us</a></li>
+        </ul>
+    </div>
+    <div class="sticky-area-mobile-view">
+        <div class="mobile-menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="phone">
+            <i class="fa fa-phone"></i> 01739852881
+        </div>
+        <div class="email">
+            <i class="fa fa-envelope"></i> example@gmail.com
+        </div>
+    </div>
+</div>
+<!--mobile header start-->
+<div class="mobile-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="mobile-logo">
+                    <a href="#">
+                        <h2>Logo Here</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="item-cart-option">
+                    <p><i class="fa fa-shopping-cart"></i><span>12</span>£69.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--mobile header end-->
+<!--mobile view end-->
+<!--header start-->
+<header>
+    <section class="top-bar-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo text-left">
+                        <a href="index.html">
+                            <h2>logo here</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="top-bar-right">
+                        <div class="top-info">
+                            <p><i class="fa fa-phone"></i>Phone<br/><span>+8801739852881</span></p>
+                        </div>
+                        <div class="top-info">
+                            <p><i class="fa fa-envelope"></i>email<br/><span>example@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <ul id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">menu list</a></li>
+                        <li><a href="#">customer</a></li>
+                        <li><a href="#">reservation</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <a href="cart-view.html">
+                        <div class="item-cart-option">
+                            <p><i class="fa fa-shopping-cart"></i><span>12</span>£69.00</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<!--header end-->
+<!--package details section start-->
+<section class="package-details-section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="package-tumbnail owl-carousel">
+                            <div class="single-package-item">
+                                <a href="#"><img src="assets/images/slider-1.jpg" alt=""></a>
+                            </div>
+                            <div class="single-package-item">
+                                <a href="#"><img src="assets/images/slider-2.jpg" alt=""></a>
+                            </div>
+                            <div class="single-package-item">
+                                <a href="#"><img src="assets/images/slider-3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="item-counter mt-4">
+                            <form>
+                                <div class="minus">
+                                    <i class="fa fa-minus"></i>
+                                </div>
+                                <div class="number-show">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="item_count" value="1">
+                                    </div>
+                                </div>
+                                <div class="plus">
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="cart-add text-center">
+                            <a href="#">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="product-details-table table-responsive">
+                            <table class="table table-bordered text-center">
+                                <thead style="background: var(--theme-color);color: #ffffff;">
+                                <tr>
+                                    <th scope="col">Index</th>
+                                    <th scope="col">Details</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th>Package Name:</th>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <th>Date:</th>
+                                    <td>Saturday, 03/05/2019</td>
+                                </tr>
+                                <tr>
+                                    <th>Price:</th>
+                                    <td>£-15</td>
+                                </tr>
+                                <tr>
+                                    <th>Category:</th>
+                                    <td>Dinner</td>
+                                </tr>
+                                <tr>
+                                    <th>Code:</th>
+                                    <td>A101</td>
+                                </tr>
+                                <tr>
+                                    <th>In Stock:</th>
+                                    <td>1000 pc</td>
+                                </tr>
+                                <tr>
+                                    <th>Rating:</th>
+                                    <td>
+                                        <div class="rating-icon">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"> (45)</i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-12">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'details')" id="Opened">Description
+                            </button>
+                            <button class="tablinks" onclick="openCity(event, 'review')">Review</button>
+                        </div>
+
+                        <div id="details" class="tabcontent">
+                            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                            <h3>Details About Product</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet facere hic
+                                nihil perspiciatis! Alias architecto asperiores cum distinctio ducimus facilis harum,
+                                impedit incidunt ipsa ipsum iste laborum nobis optio placeat possimus, praesentium quae
+                                rerum saepe sapiente similique sint voluptates voluptatum! Animi asperiores corporis,
+                                impedit praesentium quam qui tempore veritatis?</p>
+                        </div>
+
+                        <div id="review" class="tabcontent">
+                            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+                            <div class="reviews-slide owl-carousel">
+                                <div class="single-review">
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi
+                                        consequatur dolorem, earum enim error laborum possimus temporibus veritatis
+                                        vero?</p>
+                                    <p class="review-author">john doe <span>05/03/2019</span></p>
+                                </div>
+                                <div class="single-review">
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi
+                                        consequatur dolorem, earum enim error laborum possimus temporibus veritatis
+                                        vero?</p>
+                                    <p class="review-author">john doe <span>05/03/2019</span></p>
+                                </div>
+                                <div class="single-review">
+                                    <h4>Lorem ipsum dolor sit amet.</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi
+                                        consequatur dolorem, earum enim error laborum possimus temporibus veritatis
+                                        vero?</p>
+                                    <p class="review-author">john doe <span>05/03/2019</span></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="put-review">
+                                <h3 class="text-center">put your review here</h3>
+                                <form>
+                                    <div class="rating-icon review text-center pb-4">
+                                        Your Rating:
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="name"
+                                                       placeholder="Your Full Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="summary"
+                                                       placeholder="insert the summary of your review">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="review-details" rows="3"
+                                                          placeholder="details write here..."></textarea>
+                                            </div>
+                                            <div class="submit-section">
+                                                <button type="submit" class="submit-btn">Send</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="related-item">
+                    <div class="sidebar-title">
+                        <h2>Related item</h2>
+                    </div>
+                    <div class="related-item-slide owl-carousel">
+                        <div class="single-item sidebar text-center w-100">
+                            <div class="day-title">
+                                <h3>friday</h3>
+                            </div>
+                            <div class="wrapper">
+                                <div class="package-price">
+                                    <p>price: £<span>15.00</span></p>
+                                </div>
+                                <div class="brif">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nemo.</p>
+                                    <a href="#">details</a>
+                                </div>
+                                <div class="menu-list">
+                                    <div class="item-common-style">
+                                        <p>rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>fried rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>egg</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>vegetable</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Fish</option>
+                                                    <option>Fish One</option>
+                                                    <option>Fish Two</option>
+                                                    <option>Fish Three</option>
+                                                    <option>Fish Four</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Meat</option>
+                                                    <option>Beef</option>
+                                                    <option>Mutton</option>
+                                                    <option>Chicken</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>salad</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>water</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-add">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="single-item sidebar text-center w-100">
+                            <div class="day-title">
+                                <h3>friday</h3>
+                            </div>
+                            <div class="wrapper">
+                                <div class="package-price">
+                                    <p>price: £<span>15.00</span></p>
+                                </div>
+                                <div class="brif">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nemo.</p>
+                                    <a href="#">details</a>
+                                </div>
+                                <div class="menu-list">
+                                    <div class="item-common-style">
+                                        <p>rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>fried rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>egg</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>vegetable</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Fish</option>
+                                                    <option>Fish One</option>
+                                                    <option>Fish Two</option>
+                                                    <option>Fish Three</option>
+                                                    <option>Fish Four</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Meat</option>
+                                                    <option>Beef</option>
+                                                    <option>Mutton</option>
+                                                    <option>Chicken</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>salad</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>water</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-add">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
+                        <div class="single-item sidebar text-center w-100">
+                            <div class="day-title">
+                                <h3>friday</h3>
+                            </div>
+                            <div class="wrapper">
+                                <div class="package-price">
+                                    <p>price: £<span>15.00</span></p>
+                                </div>
+                                <div class="brif">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nemo.</p>
+                                    <a href="#">details</a>
+                                </div>
+                                <div class="menu-list">
+                                    <div class="item-common-style">
+                                        <p>rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>fried rice</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>egg</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>vegetable</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Fish</option>
+                                                    <option>Fish One</option>
+                                                    <option>Fish Two</option>
+                                                    <option>Fish Three</option>
+                                                    <option>Fish Four</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <form>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select Meat</option>
+                                                    <option>Beef</option>
+                                                    <option>Mutton</option>
+                                                    <option>Chicken</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>salad</p>
+                                    </div>
+                                    <div class="item-common-style">
+                                        <p>water</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-add">
+                                <a href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--package details section end-->
+<!--footer section start-->
+<footer>
+    <!--footer top section start-->
+    <section class="footer-top-section section-padding wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget-1">
+                        <ul class="footer-menu">
+                            <li><a href="#">Utilitywise Careers</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Press and Media</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Become a Partner</a></li>
+                            <li><a href="#">Switch Countries</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget-2">
+                        <ul class="footer-menu">
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Utilitywise Reviews</a></li>
+                            <li><a href="#">SmartDash Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget-3">
+                        <ul class="footer-menu">
+                            <li><a href="#">Business Energy</a></li>
+                            <li><a href="#">Compare Business Electricity</a></li>
+                            <li><a href="#">Compare Business Gas</a></li>
+                            <li><a href="#">Business Water</a></li>
+                            <li><a href="#">Business Insurance</a></li>
+                            <li><a href="#">Business Broadband & IT Services</a></li>
+                            <li><a href="#">Energy Consultant</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-widget-4">
+                        <div class="branding">
+                            <img src="assets/images/business-in-the-community.png" alt="">
+                            <img src="assets/images/bcc.png" alt="">
+                        </div>
+                        <div class="footer-social-links">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer top section end-->
+    <!--footer bottom section start-->
+    <section class="footer-bottom-section wow fadeInDown">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-bottom-widget text-center">
+                        <p>Copy Right &copy; All Right Reserved by <a href="#">Mahfuzur Rahman</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer bottom section end-->
+</footer>
+<!--footer section end-->
+<!--back to top-->
+<div class="back_to_top_area">
+    <div class="container">
+        <div class="row">
+            <div class="back_to_top">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!--back to end-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jQuery.SimpleCart.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
